@@ -1,9 +1,8 @@
 import scrapy
-from scrapy.exceptions import DropItem
-from urllib.parse import urlparse, urljoin
+from urllib.parse import urlparse
 import re
-import json
 import base64
+# scrapy crawl image_spider -a start_url="https://example.com" -O images.json
 
 
 class ImageSpider(scrapy.Spider):

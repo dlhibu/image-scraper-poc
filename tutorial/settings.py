@@ -30,3 +30,5 @@ BOT_NAME = "tutorial"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
+
+DEPTH_LIMIT = 2
